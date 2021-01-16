@@ -6,4 +6,4 @@ cd yay
 makepkg -si
 
 #Basic Aur Apps
-yay -S rofi-git polybar breeze-default-cursor-theme
+yay -S rofi-git polybar breeze-default-cursor-theme picom-ibhagwan-git
