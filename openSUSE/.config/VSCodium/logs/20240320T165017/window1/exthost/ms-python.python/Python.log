@@ -1,0 +1,20 @@
+2024-03-20 16:52:18.169 [info] Telemetry level is off
+2024-03-20 16:52:18.169 [info] Experiments are disabled, only manually opted experiments are active.
+2024-03-20 16:52:18.169 [info] Test server listening.
+2024-03-20 16:52:18.169 [info] > conda info --json
+2024-03-20 16:52:18.170 [info] Found: /bin/python3 --> /bin/python3.11
+2024-03-20 16:52:18.171 [info] Found: /bin/python3.11 --> /bin/python3.11
+2024-03-20 16:52:18.196 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2024-03-20 16:52:18.196 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2024-03-20 16:52:18.210 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-20 16:52:18.221 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-20 16:52:18.221 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-20 16:52:18.221 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-20 16:52:18.221 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-20 16:52:18.221 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-20 16:52:18.222 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-03-20 16:52:18.222 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-03-20 16:52:18.249 [info] > /bin/python3 -I ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+2024-03-20 16:52:18.275 [info] > /usr/bin/python3 -I ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+2024-03-20 16:52:18.381 [info] Python interpreter path: /bin/python3
+2024-03-20 16:52:20.294 [info] Starting Jedi language server for default.

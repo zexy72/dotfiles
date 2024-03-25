@@ -1,0 +1,14 @@
+2024-03-20 16:50:20.730 [info] Started local extension host with pid 4744.
+2024-03-20 16:50:21.044 [info] Started initializing default profile extensions in extensions installation folder. file:///home/zexy/.vscode-oss/extensions
+2024-03-20 16:50:22.053 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/zexy/.vscode-oss/extensions
+2024-03-20 16:50:26.259 [info] [perf] Render performance baseline is 359ms
+2024-03-20 16:50:26.944 [error] Cancelled: Canceled
+    at ie.queryRawGalleryExtensions (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:781:34589)
+    at async ie.queryGalleryExtensions (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:781:30997)
+    at async ie.queryGalleryExtensions (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:781:32100)
+    at async ne (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:781:29943)
+    at async ie.query (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:781:30185)
+    at async Q.queryGallery (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2947:16697)
+    at async ee.queryGallery (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2883:29891)
+    at async ee.query (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2883:19705)
+    at async vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2883:17596

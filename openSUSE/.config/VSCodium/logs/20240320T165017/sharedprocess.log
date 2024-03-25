@@ -1,0 +1,98 @@
+2024-03-20 16:50:22.029 [info] Started initializing default profile extensions in extensions installation folder. file:///home/zexy/.vscode-oss/extensions
+2024-03-20 16:50:22.714 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/zexy/.vscode-oss/extensions Unable to create file 'vscode-userdata:/home/zexy/.vscode-oss/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-03-20 16:50:22.715 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/zexy/.vscode-oss/extensions
+2024-03-20 16:50:35.318 [info] Getting Manifest... ms-python.python
+2024-03-20 16:50:35.667 [info] Installing extension: ms-python.python
+2024-03-20 16:50:36.123 [info] Getting Manifest... ms-python.debugpy
+2024-03-20 16:50:37.114 [info] Installing extension: ms-python.debugpy
+2024-03-20 16:50:48.640 [info] Getting Manifest... tamasfe.even-better-toml
+2024-03-20 16:50:48.972 [info] Installing extension: tamasfe.even-better-toml
+2024-03-20 16:50:53.347 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/share/codium/resources/app/out/bootstrap-amd.js
+- /usr/share/codium/resources/app/out/bootstrap-fork.js
+- 
+2024-03-20 16:50:53.379 [info] Extension signature verification is not done: tamasfe.even-better-toml
+2024-03-20 16:50:54.253 [info] Extracted extension to file:///home/zexy/.vscode-oss/extensions/tamasfe.even-better-toml-0.19.1-universal: tamasfe.even-better-toml
+2024-03-20 16:50:54.274 [info] Renamed to /home/zexy/.vscode-oss/extensions/tamasfe.even-better-toml-0.19.1-universal
+2024-03-20 16:50:54.288 [info] Extracting extension completed. tamasfe.even-better-toml
+2024-03-20 16:50:54.390 [info] Extension installed successfully: tamasfe.even-better-toml
+2024-03-20 16:50:54.442 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/zexy/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/zexy/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35658)
+    at a (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35793)
+    at i.toFileSystemProviderError (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:48621)
+    at i.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:39216)
+    at async w.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:21720)
+    at async Y.onDidFilesChange (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:133810)
+2024-03-20 16:51:05.699 [info] Getting Manifest... rust-lang.rust-analyzer
+2024-03-20 16:51:06.070 [info] Installing extension: rust-lang.rust-analyzer
+2024-03-20 16:51:09.104 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/share/codium/resources/app/out/bootstrap-amd.js
+- /usr/share/codium/resources/app/out/bootstrap-fork.js
+- 
+2024-03-20 16:51:09.116 [info] Extension signature verification is not done: ms-python.debugpy
+2024-03-20 16:51:12.188 [info] Extracted extension to file:///home/zexy/.vscode-oss/extensions/ms-python.debugpy-2024.2.0-linux-x64: ms-python.debugpy
+2024-03-20 16:51:12.209 [info] Renamed to /home/zexy/.vscode-oss/extensions/ms-python.debugpy-2024.2.0-linux-x64
+2024-03-20 16:51:12.221 [info] Extracting extension completed. ms-python.debugpy
+2024-03-20 16:51:12.340 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/zexy/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/zexy/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35658)
+    at a (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35793)
+    at i.toFileSystemProviderError (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:48621)
+    at i.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:39216)
+    at async w.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:21720)
+    at async Y.onDidFilesChange (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:133810)
+2024-03-20 16:51:18.494 [info] Getting Manifest... serayuzgur.crates
+2024-03-20 16:51:18.860 [info] Installing extension: serayuzgur.crates
+2024-03-20 16:51:23.100 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/share/codium/resources/app/out/bootstrap-amd.js
+- /usr/share/codium/resources/app/out/bootstrap-fork.js
+- 
+2024-03-20 16:51:23.109 [info] Extension signature verification is not done: serayuzgur.crates
+2024-03-20 16:51:23.195 [info] Extracted extension to file:///home/zexy/.vscode-oss/extensions/serayuzgur.crates-0.6.6-universal: serayuzgur.crates
+2024-03-20 16:51:23.213 [info] Renamed to /home/zexy/.vscode-oss/extensions/serayuzgur.crates-0.6.6-universal
+2024-03-20 16:51:23.233 [info] Extracting extension completed. serayuzgur.crates
+2024-03-20 16:51:23.282 [info] Extension installed successfully: serayuzgur.crates
+2024-03-20 16:51:23.344 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/zexy/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/zexy/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35658)
+    at a (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35793)
+    at i.toFileSystemProviderError (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:48621)
+    at i.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:39216)
+    at async w.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:21720)
+    at async Y.onDidFilesChange (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:133810)
+2024-03-20 16:52:13.100 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/share/codium/resources/app/out/bootstrap-amd.js
+- /usr/share/codium/resources/app/out/bootstrap-fork.js
+- 
+2024-03-20 16:52:13.102 [info] Extension signature verification is not done: ms-python.python
+2024-03-20 16:52:17.077 [info] Extracted extension to file:///home/zexy/.vscode-oss/extensions/ms-python.python-2024.2.1-universal: ms-python.python
+2024-03-20 16:52:17.084 [info] Renamed to /home/zexy/.vscode-oss/extensions/ms-python.python-2024.2.1-universal
+2024-03-20 16:52:17.092 [info] Extracting extension completed. ms-python.python
+2024-03-20 16:52:17.110 [info] Extension installed successfully: ms-python.debugpy
+2024-03-20 16:52:17.110 [info] Extension installed successfully: ms-python.python
+2024-03-20 16:52:17.184 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/zexy/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/zexy/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35658)
+    at a (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35793)
+    at i.toFileSystemProviderError (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:48621)
+    at i.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:39216)
+    at async w.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:21720)
+    at async Y.onDidFilesChange (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:133810)
+2024-03-20 16:52:53.525 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/share/codium/resources/app/out/bootstrap-amd.js
+- /usr/share/codium/resources/app/out/bootstrap-fork.js
+- 
+2024-03-20 16:52:53.527 [info] Extension signature verification is not done: rust-lang.rust-analyzer
+2024-03-20 16:52:54.264 [info] Extracted extension to file:///home/zexy/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1885-linux-x64: rust-lang.rust-analyzer
+2024-03-20 16:52:54.276 [info] Renamed to /home/zexy/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1885-linux-x64
+2024-03-20 16:52:54.288 [info] Extracting extension completed. rust-lang.rust-analyzer
+2024-03-20 16:52:54.309 [info] Extension installed successfully: rust-lang.rust-analyzer
+2024-03-20 16:52:54.379 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/zexy/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/zexy/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35658)
+    at a (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35793)
+    at i.toFileSystemProviderError (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:48621)
+    at i.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:39216)
+    at async w.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:21720)
+    at async Y.onDidFilesChange (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:133810)
