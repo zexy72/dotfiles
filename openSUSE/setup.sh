@@ -26,9 +26,9 @@ zypper install \
 	bat \
 	ripgrep \
 	syncthing \
-	fish \
 	python312 \
-	starship	
+	starship \
+	fzf
 echo "Done"
 echo
 
@@ -37,7 +37,8 @@ echo "Installing using opi"
 opi \
 	codecs \
 	Brave \
-	codium
+	codium \
+	exa
 echo "Done"
 echo
 
@@ -56,10 +57,47 @@ echo
 # Installing RUST
 echo "Installing RUST using Rustup"
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-echo "Done"
-echo
+echo "Done"; echo
+
+echo Installing using cargo
+cargo install binstall
+
+cargo binstall \
+	sccache \
+	cargo-info \
+	bacon \
+	porsmo \
+	mise \
+	speedtest-rs
 
 # Installing croc for file share
 echo "Installing croc for file sharing"
 curl https://getcroc.schollz.com | bash
 echo "Done"
+
+
+
+### ----- GIT CLONING ----- ###
+mkdir -p ~/Github
+cd ~/Github
+
+# Battery charge limiter for asus
+git clone https://github.com/sreejithag/battery-charging-limiter-linux.git 
+cd battery-charging-limiter-linux
+chmod +x ./limitd.sh
+./limitd.sh 60
+
+cd ~/Github
+
+# Ble.sh -- Bash Line Editor --
+git clone --recursive --depth 1 --shallow-submodules https://github.com/akinomyoga/ble.sh.git
+make -C ble.sh install PREFIX=~/.local
+
+cd ~/Github
+
+
+
+
+### --- ADDING .CONFIG FILES --- ###
+cp ~/Github/dotfiles/openSUSE/.config ~/ 
+cp ~/Github/dotfiles/openSUSE/.bashrc ~/ 
