@@ -2,8 +2,8 @@
 
 ### CONFIGURING SYSTEM SETTINGS ###
 # Setting hostname to vivo
-echo -n "Setting hostname to vivo ...."
-hostnamectl set-hostname vivo
+echo -n "Setting hostname to book ...."
+hostnamectl set-hostname book
 echo "Done"
 echo
 
@@ -20,7 +20,7 @@ zypper install \
 	git \
 	mpv \
 	opi \
-	foot \
+	kitty \
 	neovim \
 	gitui \
 	bat \
